@@ -3,4 +3,7 @@ project(FERRARIN_gestione_memoria C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(FERRARIN_gestione_memoria main.c)
+add_executable(FERRARIN_gestione_memoria
+        es_1.c
+        es_2.c
+        es_3.c)
